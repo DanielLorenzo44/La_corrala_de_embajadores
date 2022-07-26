@@ -63,3 +63,19 @@ h1,h2,h3 {
     color: #326e7b;
     line-height: 1.2;
 }
+
+.premium-name {
+    margin: 0 10px; 
+    color: #575756 !important; 
+    font-style: italic;
+}
+
+.message-center-menu {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #326e7b;
+}
+
+.first-cost-wine {
+    margin-right: 12px;
+}
