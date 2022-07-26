@@ -1,0 +1,65 @@
+.colores {
+    color: #326e7b; /*azul*/
+    color: #1d1d1b; /*negro*/
+    color: #575756; /*gris*/
+}
+
+h1,h2,h3 {
+    color: #1d1d1b !important;
+    text-align: center;
+    margin-bottom: 30px !important;
+    margin-top: 30px !important;
+}
+
+.container-menu-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 16px;
+}
+
+.container-menu-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-menu-item-title{
+    font-size: 20px;
+    font-weight: bold;
+    max-width: 300px;
+}
+
+.container-menu-item-title.no-allergic{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-title-and-alergic{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-menu-item-title span{
+    color: #575756;
+    line-height: 1.2;
+}
+
+.container-menu-item-allergic {
+    margin: 5px 10px 5px 0;
+}
+
+.container-menu-item-allergic img{
+    margin: 0 1px;
+}
+
+.container-menu-item-cost {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-menu-item-cost span{
+    color: #326e7b;
+    line-height: 1.2;
+}
