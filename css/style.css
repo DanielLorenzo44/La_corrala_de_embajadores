@@ -79,3 +79,34 @@ h1,h2,h3 {
 .first-cost-wine {
     margin-right: 12px;
 }
+
+.container-with-border {
+    border-left: 2px solid #326e7b;
+    border-right: 2px solid #326e7b;
+    border-bottom: 2px solid #326e7b;
+    padding: 0 15px;
+    margin-bottom: 40px;
+}
+
+.nav-tabs {
+    border-color:#326e7b !important;
+    border-width: 2px !important;
+}
+
+.nav-link{
+    color: #326e7b !important;
+    margin-bottom: -2px;
+}
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    margin-bottom: -2px;
+    border-color:#326e7b !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #575756 !important;
+    margin-bottom: -2px;
+    border-color:#326e7b !important;
+    border-width: 2px !important;
+    border-bottom: none !important;
+}
