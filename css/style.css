@@ -7,8 +7,8 @@
 h1,h2,h3 {
     color: #1d1d1b !important;
     text-align: center;
-    margin-bottom: 30px !important;
-    margin-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
 }
 
 .container-menu-item{
@@ -110,3 +110,81 @@ h1,h2,h3 {
     border-width: 2px !important;
     border-bottom: none !important;
 }
+
+.section-title-with-img-first {
+    padding: 20px 0;
+    background-image: url(../img/CARTA_COMIDA/imagen_por_venir.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+}
+
+.section-title-with-img-second {
+    padding: 20px 0;
+    background-image: url(../img/CARTA_COMIDA/imagen_para_todos.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 20%;
+}
+
+.section-title-with-img-third {
+    padding: 20px 0;
+    background-image: url(../img/CARTA_COMIDA/imagen_por_quedarte.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+}
+
+.section-title-with-img-fourth {
+    padding: 20px 0;
+    background-image: url(../img/CARTA_COMIDA/imagen_por_si_acaso.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 20%;
+}
+
+.section-title-with-img-fifth {
+    padding: 20px 0;
+    background-image: url(../img/CARTA_COMIDA/imagen_para_morirte.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 80%;
+}
+
+.not-show-img-mobile{
+    display: block;
+}
+
+.imgs-from-wine {
+    padding: 0 16px; 
+    text-align: end; 
+    margin-right: 15px;
+}
+
+.each-container-allergic-modal{
+    margin: 10px 0;
+}
+
+.each-container-allergic-modal img{
+    width: 40px;
+    margin: 0 5px;
+}
+
+.each-container-allergic-modal span{
+    color: #575756;
+    font-weight: bold;
+}
+
+.btn-primary-la-corrala {
+    color: #fff !important;
+    background-color: #326e7b !important;
+    border-color: #326e7b !important;
+}
+
+@media(max-width: 768px){
+    .not-show-img-mobile{
+        display: none;
+    }
+}
+
+

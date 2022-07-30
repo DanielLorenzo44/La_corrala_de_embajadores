@@ -24,7 +24,7 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="./carta.html">Carta</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,20 +37,16 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                  </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
     </header>
     <main>
         <div class="container-menu container" style="margin-top: 70px;">
+            <button class="btn btn-primary-la-corrala" data-bs-toggle="modal" data-bs-target="#allergicModal">
+                Leyenda alérgenos
+            </button>
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist" style="justify-content: center;">
                     <button class="nav-link active" id="nav-food-tab" data-bs-toggle="tab" data-bs-target="#nav-food" type="button" role="tab" aria-controls="nav-food" aria-selected="true">Comida</button>
@@ -60,7 +56,7 @@
             <div class="tab-content container-with-border" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-food" role="tabpanel" aria-labelledby="nav-food-tab" tabindex="0">
                     <div class="row">
-                        <h1>POR VENIR</h1>
+                        <h1 class="section-title-with-img-first">POR VENIR</h1>
                         <div class="col-md-6 container-menu-section">
                             <div class="container-menu-item">
                                 <div class="container-title-and-alergic">
@@ -145,6 +141,7 @@
                                     <div class="container-menu-item-allergic">
                                         <img src="./img/sulfitos_sin_titulo.svg" alt="sulfitos">
                                         <img src="./img/mostaza_sin_titulo.svg" alt="mostaza">
+                                        <img src="./img/pregunta_sin_titulo.svg" alt="pregunta">
                                     </div>
                                 </div>
                                 <div class="container-menu-item-cost">
@@ -155,7 +152,7 @@
                     </div>
                     <div class="row">
                         <!-- <div class="container-menu-section"> -->
-                            <h1>PARA TODOS</h1>
+                            <h1 class="section-title-with-img-second">PARA TODOS</h1>
                             <div class="col-md-6">
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -248,7 +245,7 @@
                     </div>
                     <div class="row">
                         <!-- <div class="container-menu-section"> -->
-                            <h1>POR QUEDARTE</h1>
+                            <h1 class="section-title-with-img-third">POR QUEDARTE</h1>
                             <div class="col-md-6 container-menu-section">
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -355,8 +352,7 @@
                         <!-- </div> -->
                     </div>
                     <div class="row">
-                        <!-- <div class="container-menu-section"> -->
-                            <h1>POR QUEDARTE</h1>
+                            <h1 class="section-title-with-img-fourth">POR SI ACASO</h1>
                             <div class="col-md-6 container-menu-section">
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -368,9 +364,6 @@
                                             <img src="./img/pescado_sin_titulo.svg" alt="pescado">
                                         </div>
                                     </div>
-                                    <!-- <div class="container-menu-item-cost">
-                                        <span>10€</span>
-                                    </div> -->
                                 </div>
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -382,9 +375,6 @@
                                             <img src="./img/pescado_sin_titulo.svg" alt="pescado">
                                         </div>
                                     </div>
-                                    <!-- <div class="container-menu-item-cost">
-                                        <span>9€</span>
-                                    </div> -->
                                 </div>
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -396,9 +386,6 @@
                                             <img src="./img/pescado_sin_titulo.svg" alt="pescado">
                                         </div>
                                     </div>
-                                    <!-- <div class="container-menu-item-cost">
-                                        <span>11€</span>
-                                    </div> -->
                                 </div>
                             </div>
                             <div class="col-md-6 container-menu-section">
@@ -412,9 +399,6 @@
                                             <img src="./img/pescado_sin_titulo.svg" alt="pescado">
                                         </div>
                                     </div>
-                                    <!-- <div class="container-menu-item-cost">
-                                        <span>18€</span>
-                                    </div> -->
                                 </div>
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -426,16 +410,15 @@
                                             <img src="./img/pescado_sin_titulo.svg" alt="pescado">
                                         </div>
                                     </div>
-                                    <!-- <div class="container-menu-item-cost">
-                                        <span>14€</span>
-                                    </div> -->
                                 </div>
                             </div>
-                        <!-- </div> -->
+                            <div class="text-center">
+                                <span class="message-center-menu">Pide la cantidad o el peso que quieras</span>
+                            </div>
                     </div>
                     <div class="row">
                         <!-- <div class="container-menu-section"> -->
-                            <h1>PARA MORIRTE</h1>
+                            <h1 class="section-title-with-img-fifth">PARA MORIRTE</h1>
                             <div class="col-md-6 container-menu-section">
                                 <div class="container-menu-item">
                                     <div class="container-title-and-alergic">
@@ -744,7 +727,19 @@
                         </div> 
                     </div>
                     <div class="row">
-                        <h1>DE LA UVA</h1>
+                        <h1 style="padding-bottom: 15px !important;">DE LA UVA</h1>
+                        <div class="col-md-6">
+                            <div class="imgs-from-wine">
+                                <img src="./img/CARTA_COMIDA/copa_vino.svg" alt="copa" style="margin: 0 40px;">
+                                <img src="./img/CARTA_COMIDA/botella_vino.svg" style="margin: 0 3px;" alt="botella">
+                            </div>                          
+                        </div>
+                        <div class="col-md-6 not-show-img-mobile">
+                            <div class="imgs-from-wine">
+                                <img src="./img/CARTA_COMIDA/copa_vino.svg" style="margin: 0 40px;" alt="copa">
+                                <img src="./img/CARTA_COMIDA/botella_vino.svg" style="margin: 0 3px;" alt="botella">
+                            </div>                          
+                        </div>
                         <div class="col-md-6 container-menu-section">
                             <div class="container-menu-item">
                                 <div class="container-title-and-alergic">
@@ -1049,6 +1044,86 @@
             </div>
 
         </div>
+
+        <!-- Modales -->
+
+        <div class="modal fade" id="allergicModal" tabindex="-1" aria-labelledby="allergicModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title text-uppercase" id="allergicModalLabel" style="padding-left: 10px; color: #1d1d1b;">Alérgenos</h4>
+                  <button type="button" style="margin-right: 5px;" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/pescado_sin_titulo.svg" alt="pescado">
+                            <span class="text-uppercase">pescado</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/frutos_secos_sin_titulo.svg" alt="frutos_secos">
+                            <span class="text-uppercase">frutos secos</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/gluten_sin_titulo.svg" alt="gluten">
+                            <span class="text-uppercase">gluten</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/huevo_sin_titulo.svg" alt="huevo">
+                            <span class="text-uppercase">huevo</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/sulfitos_sin_titulo.svg" alt="sulfitos">
+                            <span class="text-uppercase">sulfitos</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/mostaza_sin_titulo.svg" alt="mostaza">
+                            <span class="text-uppercase">mostaza</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/lacteos_sin_titulo.svg" alt="lacteos">
+                            <span class="text-uppercase">lácteos</span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/moluscos_sin_titulo.svg" alt="moluscos">
+                            <span class="text-uppercase">moluscos</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/crustaceos_sin_titulo.svg" alt="crustaceos">
+                            <span class="text-uppercase">crustáceos</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/cacahuetes_sin_titulo.svg" alt="cacahuetes">
+                            <span class="text-uppercase">cacahuetes</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/soja_sin_titulo.svg" alt="soja">
+                            <span class="text-uppercase">soja</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/apio_sin_titulo.svg" alt="apio">
+                            <span class="text-uppercase">apio</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/sesamo_sin_titulo.svg" alt="sesamo">
+                            <span class="text-uppercase">sésamo</span>
+                        </div>
+                        <div class="each-container-allergic-modal">
+                            <img src="./img/pregunta_sin_titulo.svg" alt="pregunta" style="width: 37px;">
+                            <span class="text-uppercase">preguntar</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer" style="margin-right: 10px;">
+                  <button type="button" class="btn btn-primary-la-corrala" data-bs-dismiss="modal">CERRAR</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.2475952309155!2d-3.704648085238054!3d40.40336546437721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42262d4e2822b9%3A0x5d5c942ef719282a!2sC.%20de%20Moratines%2C%209%2C%2028005%20Madrid!5e0!3m2!1ses!2ses!4v1656276983206!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
