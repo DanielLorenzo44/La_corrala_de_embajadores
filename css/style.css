@@ -181,9 +181,50 @@ h1,h2,h3 {
     border-color: #326e7b !important;
 }
 
+.footer-la-corrala {
+    background-color: #575756;
+    padding: 0 15px;
+}
+
+.footer-la-corrala span {
+    color: #fff;
+}
+
+.footer-la-corrala h1, .footer-la-corrala h3 {
+    color: #fff !important;
+    text-align: left;
+    margin: 15px 0 !important;
+    padding: 4px 0 !important;
+}
+
+.footer-la-corrala-left {
+    padding: 15px 30px 15px 30px;
+}
+
+.footer-la-corrala img {
+    margin: 24px 0;
+}
+
+.footer-la-corrala a {
+    color: transparent;
+}
+
 @media(max-width: 768px){
     .not-show-img-mobile{
         display: none;
+    }
+
+    .tab-content h1 {
+        text-align: left;
+        padding: 0 29px;
+    }
+
+    .section-title-with-img-first,
+    .section-title-with-img-second,
+    .section-title-with-img-third,
+    .section-title-with-img-fourth,
+    .section-title-with-img-fifth {
+        background-position: center right;
     }
 }
 
