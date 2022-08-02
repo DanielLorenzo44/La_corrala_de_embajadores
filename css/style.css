@@ -226,6 +226,34 @@ h1,h2,h3 {
     .section-title-with-img-fifth {
         background-position: center right;
     }
+
+    .container-menu-item-title.no-allergic {
+        font-size: 16px;
+    }
+
+    .container-menu-item-cost {
+        font-size: 16px;
+    }
+
+    .container-menu-item-title {
+        font-size: 16px;
+    }
+
+    .first-cost-wine{
+        margin-right: 30px;
+    }
+
+    .premium-name {
+        margin: 0 20px;
+    }
+
+    .message-center-menu {
+        font-size: 14px;;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
 }
 
 
