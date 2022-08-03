@@ -15,7 +15,7 @@ class Footer extends HTMLElement {
             color: #fff;
         }
         
-        .footer-la-corrala h1, .footer-la-corrala h3 {
+        .footer-la-corrala h1, .footer-la-corrala h4 {
             color: #fff !important;
             text-align: left;
             margin: 15px 0 !important;
@@ -38,11 +38,11 @@ class Footer extends HTMLElement {
         <div class="row" style="align-items: center;">
             <div class="col-md-6">
                 <div class="footer-la-corrala-left">
-                    <h3 class="text-uppercase">Dónde encontrarnos</h3>
+                    <h4 class="text-uppercase">Dónde encontrarnos</h4>
                     <span>Calle de Moratines, 9, 28005, Madrid</span>
                     <br>
                     <span>TLF: 919423651</span>
-                    <h3 class="text-uppercase">Horario</h3>
+                    <h4 class="text-uppercase">Horario</h4>
                     <span>Lunes a Jueves : 9:00 - 00:00</span>
                     <br>
                     <span>Viernes : 9:00 - 01:00</span>
@@ -50,7 +50,7 @@ class Footer extends HTMLElement {
                     <span>Sábado : 10:00 - 01:00</span>
                     <br>
                     <span>Domingo : 10:00 - 16:00</span>
-                    <h3 class="text-uppercase">Cómo llegar</h3>
+                    <h4 class="text-uppercase">Cómo llegar</h4>
                     <span>Metro embajadores</span>
                     <br>
                     <a href="https://www.instagram.com/lacorralaembajadores/" target="_blank">

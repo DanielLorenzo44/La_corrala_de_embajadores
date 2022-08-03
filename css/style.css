@@ -4,7 +4,7 @@
     color: #575756; /*gris*/
 }
 
-h1,h2,h3 {
+h1,h2,h3,h4 {
     color: #1d1d1b !important;
     text-align: center;
     padding-bottom: 30px !important;
@@ -215,7 +215,7 @@ h1,h2,h3 {
         display: none;
     }
 
-    .tab-content h3 {
+    .tab-content h4 {
         text-align: left;
         padding: 0 29px;
         font-size: 20px;
