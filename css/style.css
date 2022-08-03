@@ -158,7 +158,7 @@ h1,h2,h3 {
 .imgs-from-wine {
     padding: 0 16px; 
     text-align: end; 
-    margin-right: 15px;
+    padding-right: 24px;
 }
 
 .each-container-allergic-modal{
