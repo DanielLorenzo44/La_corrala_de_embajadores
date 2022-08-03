@@ -26,13 +26,13 @@ h1,h2,h3 {
 }
 
 .container-menu-item-title{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     max-width: 300px;
 }
 
 .container-menu-item-title.no-allergic{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ h1,h2,h3 {
 }
 
 .container-menu-item-cost {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ h1,h2,h3 {
 
 .message-center-menu {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 14px;
     color: #326e7b;
 }
 
@@ -173,6 +173,7 @@ h1,h2,h3 {
 .each-container-allergic-modal span{
     color: #575756;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .btn-primary-la-corrala {
@@ -181,7 +182,7 @@ h1,h2,h3 {
     border-color: #326e7b !important;
 }
 
-.footer-la-corrala {
+/* .footer-la-corrala {
     background-color: #575756;
     padding: 0 15px;
 }
@@ -207,16 +208,17 @@ h1,h2,h3 {
 
 .footer-la-corrala a {
     color: transparent;
-}
+} */
 
 @media(max-width: 768px){
     .not-show-img-mobile{
         display: none;
     }
 
-    .tab-content h1 {
+    .tab-content h3 {
         text-align: left;
         padding: 0 29px;
+        font-size: 20px;
     }
 
     .section-title-with-img-first,
@@ -228,15 +230,15 @@ h1,h2,h3 {
     }
 
     .container-menu-item-title.no-allergic {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .container-menu-item-cost {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .container-menu-item-title {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .first-cost-wine{
@@ -248,11 +250,7 @@ h1,h2,h3 {
     }
 
     .message-center-menu {
-        font-size: 14px;;
-    }
-
-    h1 {
-        font-size: 20px;
+        font-size: 10px;;
     }
 }
 

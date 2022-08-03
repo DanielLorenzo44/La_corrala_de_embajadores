@@ -38,7 +38,7 @@ class Footer extends HTMLElement {
         <div class="row" style="align-items: center;">
             <div class="col-md-6">
                 <div class="footer-la-corrala-left">
-                    <h1 class="text-uppercase">Dónde encontrarnos</h1>
+                    <h3 class="text-uppercase">Dónde encontrarnos</h3>
                     <span>Calle de Moratines, 9, 28005, Madrid</span>
                     <br>
                     <span>TLF: 919423651</span>
