@@ -161,6 +161,10 @@ h1,h2,h3,h4 {
     padding-right: 24px;
 }
 
+.glass-img {
+    margin: 0 25px;
+}
+
 .each-container-allergic-modal{
     margin: 10px 0;
 }
@@ -181,6 +185,7 @@ h1,h2,h3,h4 {
     background-color: #326e7b !important;
     border-color: #326e7b !important;
 }
+
 
 /* .footer-la-corrala {
     background-color: #575756;
@@ -251,6 +256,14 @@ h1,h2,h3,h4 {
 
     .message-center-menu {
         font-size: 10px;;
+    }
+
+    .imgs-from-wine {
+        padding-right: 20px;
+    }
+
+    .glass-img {
+        margin: 0 35px;
     }
 }
 
