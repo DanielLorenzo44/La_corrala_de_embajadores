@@ -186,6 +186,18 @@ h1,h2,h3,h4 {
     border-color: #326e7b !important;
 }
 
+.btn-outline-primary-la-corrala {
+    color: #326e7b !important;
+    background-color: transparent !important;
+    border-color: #326e7b !important;
+}
+
+.btn-outline-primary-la-corrala:hover {
+    color: #fff !important;
+    background-color: #326e7b !important;
+    border-color: #326e7b !important;
+}
+
 
 /* .footer-la-corrala {
     background-color: #575756;
