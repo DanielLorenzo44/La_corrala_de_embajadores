@@ -33,6 +33,13 @@ class Header extends HTMLElement {
       .navbar-la-corrala{
           padding: 10px 0;
       }
+      .modal.fade.modal-right .modal-dialog {
+        transform: translate(125%, 0px);
+      }
+      
+      .modal.show.modal-right .modal-dialog {
+        transform: none;
+      }
       @media(max-width: 768px){
         .isologo-navbar {
           width: 35px; 
@@ -69,7 +76,7 @@ class Header extends HTMLElement {
             </button>
           </div>
         </nav>
-        <div class="modal fade" id="navigationMenu" tabindex="-1" aria-labelledby="navigationMenuLabel" aria-hidden="true">
+        <div class="modal fade modal-right" id="navigationMenu" tabindex="-1" aria-labelledby="navigationMenuLabel" aria-hidden="true">
           <div class="modal-dialog modal-fullscreen">
             <div class="modal-content" style="background-color: #575756;">
               <div class="modal-header" style="border-bottom: none; padding: 25px;">
