@@ -1114,16 +1114,14 @@
     if(window.innerWidth > 768){
         window.onscroll = function() {
       if(window.scrollY > (window.innerHeight - percentage)){
-        console.log("Entra 1");
         myNav.classList.add('new-color');
       }else{
-        console.log("Entra 2")
         myNav.classList.remove('new-color');
       }
       }
     } else {
         window.onscroll = function() {
-      if(window.scrollY > (window.innerHeight - (currWidth * 1.75))){
+      if(window.scrollY > (window.innerHeight - (currWidth * 1.5))){
         myNav.classList.add('new-color');
       }else{
         myNav.classList.remove('new-color');
