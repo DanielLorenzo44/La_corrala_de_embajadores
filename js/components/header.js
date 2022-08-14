@@ -109,11 +109,6 @@ class Header extends HTMLElement {
                     <span class="text-uppercase span-menu-navigation">La carta</span>
                   </a>
                 </div>
-                <div class="div-links-menu-navigation">
-                  <a href="" style="text-decoration: none;">
-                    <span class="text-uppercase span-menu-navigation">Contáctanos</span>
-                  </a>
-                </div>
               </div>
             </div>
           </div>

@@ -297,6 +297,10 @@ h1,h2,h3,h4 {
     padding: 20px 0;
 } */
 
+.height-img {
+    height: 100vh;
+}
+
 @media(max-width: 768px){
     .not-show-img-mobile{
         display: none;
@@ -372,6 +376,10 @@ h1,h2,h3,h4 {
 
     .container-index-info-message{
         text-align: center;
+    }
+
+    .height-img {
+        height: auto;
     }
 /* 
     .isologo-navbar {
