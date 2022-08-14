@@ -40,6 +40,15 @@ class Header extends HTMLElement {
       .modal.show.modal-right .modal-dialog {
         transform: none;
       }
+
+      #navbarLaCorrala {
+        background-color: transparent !important;
+      }
+
+      #navbarLaCorrala.new-color{
+        background-color: #326e7b !important;
+      }
+
       @media(max-width: 768px){
         .isologo-navbar {
           width: 35px; 
@@ -64,7 +73,7 @@ class Header extends HTMLElement {
       }
       </style>
       <header>
-      <nav class="navbar fixed-top navbar-light bg-light navbar-la-corrala" style="background-color: #326e7b !important">
+      <nav id="navbarLaCorrala" class="navbar fixed-top navbar-light bg-light navbar-la-corrala" >
           <div class="container-fluid">
             <a class="navbar-brand" href="./index.html" style="margin-left: 20px;">
               <img src="./Isologo_final_blanco.svg" alt="logo" class="isologo-navbar">

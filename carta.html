@@ -12,7 +12,10 @@
 <body>
     <header-component></header-component>
     <main>
-        <div class="container-menu container" style="margin-top: 70px;">
+        <div>
+            <img src="./img/CARTA/img_la_carta.png" class="d-block w-100" alt="photo" style="height: 100vh;">
+        </div>
+        <div class="container-menu container" style="margin-top: 20px;">
             <button style="margin: 16px 0;" class="btn btn-primary-la-corrala" data-bs-toggle="modal" data-bs-target="#allergicModal">
                 Leyenda alérgenos
             </button>
@@ -1100,4 +1103,15 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="./js/components/header.js"></script>
 <script src="./js/components/footer.js"></script>
+<script>
+    const myNav = document.getElementById('navbarLaCorrala')
+  
+    window.onscroll = function() {
+    if(window.scrollY > (window.innerHeight - 75)){
+      myNav.classList.add('new-color')
+    }else{
+      myNav.classList.remove('new-color')
+  }
+  }
+    </script>
 </html>

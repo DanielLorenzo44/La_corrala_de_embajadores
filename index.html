@@ -60,21 +60,18 @@
 <script src="./js/components/header.js"></script>
 <script src="./js/components/footer.js"></script>
 <script>
-    $(document).ready(function(){
-	$(window).scroll(function () {
-			if ($(this).scrollTop() > 50) {
-				$('#back-to-top').fadeIn();
-			} else {
-				$('#back-to-top').fadeOut();
-			}
-		});
-		// scroll body to 0px on click
-		$('#back-to-top').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-});
-</script>
+  const myNav = document.getElementById('navbarLaCorrala')
+
+  window.onscroll = function() {
+  if(window.scrollY > (window.innerHeight - 75)){
+    console.log("Entra 1");
+    myNav.classList.add('new-color')
+    //myNav.style.backgroundColor = "transparent !important";
+  }else{
+    console.log("Entra 2")
+    myNav.classList.remove('new-color')
+    //myNav.style.backgroundColor = "rgba(50, 110, 123, 0.2) !important";
+}
+}
+  </script>
 </html>
