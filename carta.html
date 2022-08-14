@@ -12,7 +12,7 @@
 <body>
     <header-component></header-component>
     <main>
-        <div>
+        <div id="containerImg">
             <img src="./img/CARTA/img_la_carta.png" class="d-block w-100 height-img" alt="photo">
         </div>
         <div class="container-menu container" style="margin-top: 20px;">
@@ -1106,6 +1106,10 @@
 <script>
     const myNav = document.getElementById('navbarLaCorrala');
     const percentage = window.innerHeight * 0.1;
+
+    var currWidth = document.getElementById("containerImg").clientWidth;
+
+    console.log(currWidth);
   
     if(window.innerWidth > 768){
         window.onscroll = function() {
@@ -1118,7 +1122,13 @@
       }
       }
     } else {
+        window.onscroll = function() {
+      if(window.scrollY > (window.innerHeight - (currWidth * 1.75))){
         myNav.classList.add('new-color');
+      }else{
+        myNav.classList.remove('new-color');
       }
+      }
+    }
     </script>
 </html>

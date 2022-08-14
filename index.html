@@ -18,7 +18,7 @@
               <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselIndex" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" id="containerImg">
               <div id="carouselItem1" class="carousel-item active">
                 <img src="./img/CAROUSEL/carousel_1_final.png" class="d-block w-100 height-img" alt="photo">
               </div>
@@ -63,6 +63,8 @@
   const myNav = document.getElementById('navbarLaCorrala');
   const percentage = window.innerHeight * 0.1;
 
+  var currWidth = document.getElementById("containerImg").clientWidth;
+
   if(window.innerWidth > 768){
       window.onscroll = function() {
     if(window.scrollY > (window.innerHeight - percentage)){
@@ -74,7 +76,13 @@
     }
     }
   } else {
-      myNav.classList.add('new-color');
+    window.onscroll = function() {
+      if(window.scrollY > (window.innerHeight - (currWidth * 1.75))){
+        myNav.classList.add('new-color');
+      }else{
+        myNav.classList.remove('new-color');
+      }
     }
+  }
   </script>
 </html>
